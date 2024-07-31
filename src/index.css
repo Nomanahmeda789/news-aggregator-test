@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #dfdcdc;
+}
+
+@media (max-width: 600px) {
+  .filter {
+    flex-direction: column;
+  }
+  .filter select{
+    width: 100% !important;
+  }
+  .filter input {
+    width: calc(100% - 20px) !important;
+    margin: 10px 0px;
+  }
+
+  .article-list {
+    grid-template-columns: 1fr;
+  }
+
+  .settings {
+    margin-top: 10px;
+  }
+}

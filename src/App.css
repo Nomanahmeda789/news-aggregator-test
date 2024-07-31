@@ -1,0 +1,109 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.search-bar input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+  font-weight: 600;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter select,
+.filter input {
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+  font-weight: 600;
+  width: 31%;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.article-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 4px 4px 2px lightgray;
+}
+
+.article-item h3 {
+  margin-top: 0px;
+}
+.article-item h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.article-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  word-break: break-all;
+}
+
+.article-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article-item a:hover {
+  text-decoration: underline;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.settings div {
+  margin-bottom: 10px;
+}
+
+.settings label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.settings select {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+  font-weight: 600;
+}
+
+.settings button {
+  margin-bottom: 20px;
+  font-weight: 600;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: rgb(59, 55, 55);
+  color: white;
+  cursor: pointer;
+}
