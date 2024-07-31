@@ -15,12 +15,12 @@ yarn install
 ```
 
 
-To start dependencies using npm:
+To start server using npm:
 ```bash
 npm start
 ```
 
-To start dependencies using yarn:
+To start server using yarn:
 ```bash
 yarn start
 ```
